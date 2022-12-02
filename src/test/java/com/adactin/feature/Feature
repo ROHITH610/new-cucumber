@@ -1,0 +1,32 @@
+Feature: Hotel room booking in adactin application
+
+Scenario: Login page
+Given user is able to launch the URL
+When user is able to give username
+And user is able to give password
+Then user is able to login if username and password are correct
+
+Scenario: Search page
+Given user selects the location
+When user selects the hotel
+And user selects the room
+And user selects the room type
+And user gives check in date
+And user gives check out date
+And user selects the adults 
+And user selects the child
+And user clicks the search
+And user gives the select hotel
+Then user gives the continue 
+
+Scenario: Book hotel
+Given user enters first name
+And user enters last name
+And user enters address
+And user enters card no
+And user verify the card type 
+And user verify the  month
+And user verify the year
+And user enters the cvv
+And user clicks the book button
+Then user clicks the logout button
